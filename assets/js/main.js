@@ -2,7 +2,7 @@ $(document).ready(function () {
   "use strict";
 
   AOS.init();
-  $(".owl-carousel").owlCarousel({
+  $(".header-slider .owl-carousel").owlCarousel({
     autoplay: true,
     loop: true,
     // margin: 10,
@@ -14,11 +14,11 @@ $(document).ready(function () {
         nav: true,
       },
       600: {
-        items: 2,
+        items: 1,
         nav: false,
       },
       1000: {
-        items: 4,
+        items: 1,
         nav: true,
         loop: false,
       },

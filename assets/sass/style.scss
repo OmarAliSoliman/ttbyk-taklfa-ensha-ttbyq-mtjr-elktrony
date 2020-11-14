@@ -675,6 +675,10 @@ body {
   .header .header-content h5{
     margin-top: 0;
   }
+  .header{
+    height: auto !important;
+    padding-bottom: 60px !important;
+  }
 }
 
 %sectionHeader {
